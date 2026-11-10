@@ -1,0 +1,652 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "CFBundleDisplayName" : {
+      "comment" : "Bundle display name",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "livlivIOSPlayer"
+          }
+        }
+      }
+    },
+    "CFBundleName" : {
+      "comment" : "Bundle name",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "livlivIOSPlayer"
+          }
+        }
+      }
+    },
+    "NSCameraUsageDescription" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تُستخدم الكاميرا لتحريك الشخصية بتتبّع الوجه. تُعالَج الصورة على هذا الجهاز فقط ولا تُحفَظ أو تُرسَل أبدًا."
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Камерата се използва за движение на героя чрез проследяване на лицето. Изображението се обработва само на това устройство и никога не се записва или изпраща."
+          }
+        },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ক্যামেরা মুখ ট্র্যাকিং দিয়ে চরিত্রকে নড়াতে ব্যবহৃত হয়। ছবি শুধু এই ডিভাইসে প্রক্রিয়া করা হয় এবং কখনো সংরক্ষণ বা পাঠানো হয় না।"
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La càmera s’utilitza per moure el personatge amb el seguiment facial. La imatge només es processa en aquest dispositiu i mai no es desa ni s’envia."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fotoaparát se používá k pohybu postavy pomocí sledování obličeje. Obraz se zpracovává jen na tomto zařízení a nikdy se neukládá ani neodesílá."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kameraet bruges til at bevæge figuren med ansigtssporing. Billedet behandles kun på denne enhed og bliver aldrig gemt eller sendt."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die Kamera wird verwendet, um die Figur mit Gesichtserkennung zu bewegen. Das Bild wird nur auf diesem Gerät verarbeitet und nie gespeichert oder gesendet."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Η κάμερα χρησιμοποιείται για την κίνηση του χαρακτήρα με παρακολούθηση προσώπου. Η εικόνα επεξεργάζεται μόνο σε αυτήν τη συσκευή και δεν αποθηκεύεται ούτε αποστέλλεται ποτέ."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The camera is used to move the character with face tracking. The picture is processed on this device only and is never stored or sent."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La cámara se usa para mover al personaje con el seguimiento facial. La imagen se procesa solo en este dispositivo y nunca se guarda ni se envía."
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La cámara se usa para mover al personaje con el seguimiento facial. La imagen se procesa solo en este dispositivo y nunca se guarda ni se envía."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kameraa käytetään hahmon liikuttamiseen kasvojen seurannalla. Kuva käsitellään vain tällä laitteella, eikä sitä koskaan tallenneta tai lähetetä."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La caméra sert à animer le personnage avec le suivi du visage. L’image est traitée uniquement sur cet appareil et n’est jamais enregistrée ni envoyée."
+          }
+        },
+        "fr-CA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La caméra sert à animer le personnage avec le suivi du visage. L’image est traitée uniquement sur cet appareil et n’est jamais enregistrée ni envoyée."
+          }
+        },
+        "gu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "કૅમેરાનો ઉપયોગ ચહેરો ટ્રેકિંગ વડે પાત્રને હલાવવા માટે થાય છે. છબી ફક્ત આ ડિવાઇસ પર પ્રોસેસ થાય છે અને ક્યારેય સાચવવામાં કે મોકલવામાં આવતી નથી."
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "המצלמה משמשת להנעת הדמות באמצעות מעקב פנים. התמונה מעובדת במכשיר זה בלבד ולעולם אינה נשמרת או נשלחת."
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "कैमरे का उपयोग चेहरा ट्रैकिंग से कैरेक्टर को हिलाने के लिए किया जाता है। इमेज केवल इसी डिवाइस पर प्रोसेस होती है और कभी सहेजी या भेजी नहीं जाती।"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kamera se koristi za pomicanje lika praćenjem lica. Slika se obrađuje samo na ovom uređaju i nikada se ne sprema niti šalje."
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A kamera arckövetéssel mozgatja a karaktert. A képet csak ez az eszköz dolgozza fel, és soha nem menti vagy küldi el."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kamera digunakan untuk menggerakkan karakter dengan pelacakan wajah. Gambar hanya diproses di perangkat ini dan tidak pernah disimpan atau dikirim."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La fotocamera serve a muovere il personaggio con il tracciamento del volto. L’immagine viene elaborata solo su questo dispositivo e non viene mai salvata né inviata."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "フェイストラッキングでキャラクターを動かすためにカメラを使用します。映像はこのデバイス内でのみ処理され、保存や送信はされません。"
+          }
+        },
+        "kk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Камера кейіпкерді бетті бақылау арқылы қозғалту үшін қолданылады. Сурет тек осы құрылғыда өңделеді және ешқашан сақталмайды не жіберілмейді."
+          }
+        },
+        "kn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ಮುಖ ಟ್ರ್ಯಾಕಿಂಗ್ ಮೂಲಕ ಪಾತ್ರವನ್ನು ಚಲಿಸಲು ಕ್ಯಾಮರಾವನ್ನು ಬಳಸಲಾಗುತ್ತದೆ. ಚಿತ್ರವನ್ನು ಈ ಸಾಧನದಲ್ಲಿ ಮಾತ್ರ ಸಂಸ್ಕರಿಸಲಾಗುತ್ತದೆ ಮತ್ತು ಎಂದಿಗೂ ಉಳಿಸಲಾಗುವುದಿಲ್ಲ ಅಥವಾ ಕಳುಹಿಸಲಾಗುವುದಿಲ್ಲ."
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "얼굴 추적으로 캐릭터를 움직이기 위해 카메라를 사용합니다. 영상은 이 기기 안에서만 처리되며 저장하거나 전송하지 않습니다."
+          }
+        },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kamera naudojama personažui judinti veido sekimu. Vaizdas apdorojamas tik šiame įrenginyje ir niekada neišsaugomas ar nesiunčiamas."
+          }
+        },
+        "ml" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "മുഖം ട്രാക്കിംഗിലൂടെ കഥാപാത്രത്തെ ചലിപ്പിക്കാൻ ക്യാമറ ഉപയോഗിക്കുന്നു. ചിത്രം ഈ ഉപകരണത്തിൽ മാത്രം പ്രോസസ്സ് ചെയ്യുന്നു, ഒരിക്കലും സംരക്ഷിക്കുകയോ അയയ്ക്കുകയോ ചെയ്യുന്നില്ല."
+          }
+        },
+        "mr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "चेहरा ट्रॅकिंगद्वारे पात्र हलवण्यासाठी कॅमेरा वापरला जातो. प्रतिमा फक्त या डिव्हाइसवर प्रक्रिया केली जाते आणि कधीही जतन किंवा पाठवली जात नाही."
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kamera digunakan untuk menggerakkan watak dengan penjejakan muka. Imej hanya diproses pada peranti ini dan tidak pernah disimpan atau dihantar."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kameraet brukes til å bevege figuren med ansiktssporing. Bildet behandles bare på denne enheten og blir aldri lagret eller sendt."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "De camera wordt gebruikt om het personage met gezichtsherkenning te bewegen. Het beeld wordt alleen op dit apparaat verwerkt en nooit bewaard of verstuurd."
+          }
+        },
+        "or" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ମୁହଁ ଟ୍ରାକିଂ ଦ୍ୱାରା ଚରିତ୍ରକୁ ହଲାଇବା ପାଇଁ କ୍ୟାମେରା ବ୍ୟବହାର ହୁଏ। ଛବି କେବଳ ଏହି ଡିଭାଇସରେ ପ୍ରକ୍ରିୟାକରଣ ହୁଏ ଏବଂ କେବେ ସେଭ କିମ୍ବା ପଠାଯାଏ ନାହିଁ।"
+          }
+        },
+        "pa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ਕੈਮਰਾ ਚਿਹਰਾ ਟਰੈਕਿੰਗ ਨਾਲ ਕਿਰਦਾਰ ਨੂੰ ਹਿਲਾਉਣ ਲਈ ਵਰਤਿਆ ਜਾਂਦਾ ਹੈ। ਤਸਵੀਰ ਸਿਰਫ਼ ਇਸ ਡੀਵਾਈਸ ਉੱਤੇ ਪ੍ਰੋਸੈੱਸ ਹੁੰਦੀ ਹੈ ਅਤੇ ਕਦੇ ਵੀ ਰੱਖਿਅਤ ਜਾਂ ਭੇਜੀ ਨਹੀਂ ਜਾਂਦੀ।"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aparat służy do poruszania postacią za pomocą śledzenia twarzy. Obraz jest przetwarzany tylko na tym urządzeniu i nigdy nie jest zapisywany ani wysyłany."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A câmera é usada para mover o personagem com o rastreamento facial. A imagem é processada só neste dispositivo e nunca é armazenada nem enviada."
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A câmara é usada para mover o personagem com o seguimento facial. A imagem é processada só neste dispositivo e nunca é armazenada nem enviada."
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Camera este folosită pentru a mișca personajul prin urmărirea feței. Imaginea este procesată numai pe acest dispozitiv și nu este niciodată salvată sau trimisă."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Камера используется, чтобы двигать персонажа с помощью отслеживания лица. Изображение обрабатывается только на этом устройстве и никогда не сохраняется и не отправляется."
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kamera sa používa na pohyb postavy pomocou sledovania tváre. Obraz sa spracúva len v tomto zariadení a nikdy sa neukladá ani neodosiela."
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kamera se uporablja za premikanje lika s sledenjem obrazu. Slika se obdeluje samo v tej napravi in se nikoli ne shrani ali pošlje."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kameran används för att röra figuren med ansiktsspårning. Bilden behandlas bara på den här enheten och sparas eller skickas aldrig."
+          }
+        },
+        "ta" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "முக டிராக்கிங் மூலம் கதாபாத்திரத்தை அசைக்கக் கேமரா பயன்படுகிறது. படம் இந்தச் சாதனத்தில் மட்டுமே செயலாக்கப்படும், ஒருபோதும் சேமிக்கப்படாது அல்லது அனுப்பப்படாது."
+          }
+        },
+        "te" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ముఖ ట్రాకింగ్ ద్వారా పాత్రను కదిలించడానికి కెమెరా ఉపయోగించబడుతుంది. చిత్రం ఈ పరికరంలో మాత్రమే ప్రాసెస్ చేయబడుతుంది, ఎప్పుడూ సేవ్ చేయబడదు లేదా పంపబడదు."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "กล้องใช้เพื่อขยับตัวละครด้วยการติดตามใบหน้า ภาพจะได้รับการประมวลผลบนอุปกรณ์นี้เท่านั้น และจะไม่ถูกบันทึกหรือส่งออกไป"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kamera, karakteri yüz takibiyle hareket ettirmek için kullanılır. Görüntü yalnızca bu aygıtta işlenir ve asla kaydedilmez veya gönderilmez."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Камера використовується, щоб рухати персонажа за допомогою відстеження обличчя. Зображення обробляється лише на цьому пристрої й ніколи не зберігається та не надсилається."
+          }
+        },
+        "ur" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "کیمرہ چہرے کی ٹریکنگ سے کردار کو حرکت دینے کے لیے استعمال ہوتا ہے۔ تصویر صرف اسی آلے پر پروسیس ہوتی ہے اور کبھی محفوظ یا بھیجی نہیں جاتی۔"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Camera được dùng để chuyển động nhân vật bằng theo dõi khuôn mặt. Hình ảnh chỉ được xử lý trên thiết bị này và không bao giờ được lưu hay gửi đi."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "使用相机通过面部追踪来驱动角色。画面只在本设备上处理,不会被保存或发送。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "使用相機透過臉部追蹤來驅動角色。畫面只在本裝置上處理,不會被儲存或傳送。"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "使用相機透過臉部追蹤來驅動角色。畫面只在本裝置上處理,不會被儲存或傳送。"
+          }
+        }
+      }
+    },
+    "NSMicrophoneUsageDescription" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "يُستخدم الميكروفون لتحريك فم الشخصية بمزامنة الشفاه. يُحلَّل الصوت على هذا الجهاز فقط ولا يُسجَّل أو يُرسَل أبدًا."
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Микрофонът се използва за движение на устата на героя чрез синхронизация на устните. Звукът се анализира само на това устройство и никога не се записва или изпраща."
+          }
+        },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "মাইক্রোফোন লিপ সিঙ্ক দিয়ে চরিত্রের মুখ নড়াতে ব্যবহৃত হয়। শব্দ শুধু এই ডিভাইসে বিশ্লেষণ করা হয় এবং কখনো রেকর্ড বা পাঠানো হয় না।"
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "El micròfon s’utilitza per moure la boca del personatge amb la sincronització labial. El so només s’analitza en aquest dispositiu i mai no es grava ni s’envia."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mikrofon se používá k pohybu úst postavy pomocí synchronizace rtů. Zvuk se analyzuje jen na tomto zařízení a nikdy se nenahrává ani neodesílá."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mikrofonen bruges til at bevæge figurens mund med læbesynkronisering. Lyden analyseres kun på denne enhed og bliver aldrig optaget eller sendt."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Das Mikrofon wird verwendet, um den Mund der Figur per Lippensynchronisation zu bewegen. Der Ton wird nur auf diesem Gerät analysiert und nie aufgenommen oder gesendet."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Το μικρόφωνο χρησιμοποιείται για την κίνηση του στόματος του χαρακτήρα με συγχρονισμό χειλιών. Ο ήχος αναλύεται μόνο σε αυτήν τη συσκευή και δεν ηχογραφείται ούτε αποστέλλεται ποτέ."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The microphone is used to move the character's mouth with lip sync. The sound is analyzed on this device only and is never recorded or sent."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "El micrófono se usa para mover la boca del personaje con la sincronización labial. El sonido se analiza solo en este dispositivo y nunca se graba ni se envía."
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "El micrófono se usa para mover la boca del personaje con la sincronización labial. El sonido se analiza solo en este dispositivo y nunca se graba ni se envía."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mikrofonia käytetään hahmon suun liikuttamiseen huulisynkronoinnilla. Ääni analysoidaan vain tällä laitteella, eikä sitä koskaan nauhoiteta tai lähetetä."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Le micro sert à animer la bouche du personnage avec la synchronisation labiale. Le son est analysé uniquement sur cet appareil et n’est jamais enregistré ni envoyé."
+          }
+        },
+        "fr-CA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Le microphone sert à animer la bouche du personnage avec la synchronisation labiale. Le son est analysé uniquement sur cet appareil et n’est jamais enregistré ni envoyé."
+          }
+        },
+        "gu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "માઇક્રોફોનનો ઉપયોગ લિપ સિંક વડે પાત્રનું મોં હલાવવા માટે થાય છે. અવાજનું વિશ્લેષણ ફક્ત આ ડિવાઇસ પર થાય છે અને ક્યારેય રેકોર્ડ કે મોકલવામાં આવતો નથી."
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "המיקרופון משמש להנעת פי הדמות באמצעות סנכרון שפתיים. הצליל מנותח במכשיר זה בלבד ולעולם אינו מוקלט או נשלח."
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "माइक्रोफ़ोन का उपयोग लिप सिंक से कैरेक्टर का मुँह हिलाने के लिए किया जाता है। आवाज़ का विश्लेषण केवल इसी डिवाइस पर होता है और उसे कभी रिकॉर्ड या भेजा नहीं जाता।"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mikrofon se koristi za pomicanje usta lika sinkronizacijom usana. Zvuk se analizira samo na ovom uređaju i nikada se ne snima niti šalje."
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A mikrofon szájszinkronnal mozgatja a karakter száját. A hangot csak ez az eszköz elemzi, és soha nem rögzíti vagy küldi el."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mikrofon digunakan untuk menggerakkan mulut karakter dengan sinkronisasi bibir. Suara hanya dianalisis di perangkat ini dan tidak pernah direkam atau dikirim."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Il microfono serve a muovere la bocca del personaggio con il lip sync. Il suono viene analizzato solo su questo dispositivo e non viene mai registrato né inviato."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "リップシンクでキャラクターの口を動かすためにマイクを使用します。音声はこのデバイス内でのみ解析され、録音や送信はされません。"
+          }
+        },
+        "kk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Микрофон кейіпкердің аузын ерін синхрондауы арқылы қозғалту үшін қолданылады. Дыбыс тек осы құрылғыда талданады және ешқашан жазылмайды не жіберілмейді."
+          }
+        },
+        "kn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ಲಿಪ್ ಸಿಂಕ್ ಮೂಲಕ ಪಾತ್ರದ ಬಾಯಿಯನ್ನು ಚಲಿಸಲು ಮೈಕ್ರೊಫೋನ್ ಬಳಸಲಾಗುತ್ತದೆ. ಶಬ್ದವನ್ನು ಈ ಸಾಧನದಲ್ಲಿ ಮಾತ್ರ ವಿಶ್ಲೇಷಿಸಲಾಗುತ್ತದೆ ಮತ್ತು ಎಂದಿಗೂ ರೆಕಾರ್ಡ್ ಮಾಡಲಾಗುವುದಿಲ್ಲ ಅಥವಾ ಕಳುಹಿಸಲಾಗುವುದಿಲ್ಲ."
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "립싱크로 캐릭터의 입을 움직이기 위해 마이크를 사용합니다. 소리는 이 기기 안에서만 분석되며 녹음하거나 전송하지 않습니다."
+          }
+        },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mikrofonas naudojamas personažo burnai judinti lūpų sinchronizavimu. Garsas analizuojamas tik šiame įrenginyje ir niekada neįrašomas ar nesiunčiamas."
+          }
+        },
+        "ml" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ലിപ് സിങ്കിലൂടെ കഥാപാത്രത്തിന്റെ വായ ചലിപ്പിക്കാൻ മൈക്രോഫോൺ ഉപയോഗിക്കുന്നു. ശബ്ദം ഈ ഉപകരണത്തിൽ മാത്രം വിശകലനം ചെയ്യുന്നു, ഒരിക്കലും റെക്കോർഡ് ചെയ്യുകയോ അയയ്ക്കുകയോ ചെയ്യുന്നില്ല."
+          }
+        },
+        "mr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "लिप सिंकद्वारे पात्राचे तोंड हलवण्यासाठी मायक्रोफोन वापरला जातो. आवाजाचे विश्लेषण फक्त या डिव्हाइसवर होते आणि तो कधीही रेकॉर्ड किंवा पाठवला जात नाही."
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mikrofon digunakan untuk menggerakkan mulut watak dengan penyegerakan bibir. Bunyi hanya dianalisis pada peranti ini dan tidak pernah dirakam atau dihantar."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mikrofonen brukes til å bevege munnen til figuren med leppesynk. Lyden analyseres bare på denne enheten og blir aldri tatt opp eller sendt."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "De microfoon wordt gebruikt om de mond van het personage met lipsynchronisatie te bewegen. Het geluid wordt alleen op dit apparaat geanalyseerd en nooit opgenomen of verstuurd."
+          }
+        },
+        "or" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ଲିପ ସିଙ୍କ ଦ୍ୱାରା ଚରିତ୍ରର ପାଟି ହଲାଇବା ପାଇଁ ମାଇକ୍ରୋଫୋନ ବ୍ୟବହାର ହୁଏ। ଶବ୍ଦ କେବଳ ଏହି ଡିଭାଇସରେ ବିଶ୍ଳେଷଣ ହୁଏ ଏବଂ କେବେ ରେକର୍ଡ କିମ୍ବା ପଠାଯାଏ ନାହିଁ।"
+          }
+        },
+        "pa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ਮਾਈਕ੍ਰੋਫ਼ੋਨ ਲਿਪ ਸਿੰਕ ਨਾਲ ਕਿਰਦਾਰ ਦਾ ਮੂੰਹ ਹਿਲਾਉਣ ਲਈ ਵਰਤਿਆ ਜਾਂਦਾ ਹੈ। ਆਵਾਜ਼ ਦਾ ਵਿਸ਼ਲੇਸ਼ਣ ਸਿਰਫ਼ ਇਸ ਡੀਵਾਈਸ ਉੱਤੇ ਹੁੰਦਾ ਹੈ ਅਤੇ ਇਸਨੂੰ ਕਦੇ ਵੀ ਰਿਕਾਰਡ ਜਾਂ ਭੇਜਿਆ ਨਹੀਂ ਜਾਂਦਾ।"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mikrofon służy do poruszania ustami postaci za pomocą synchronizacji ust. Dźwięk jest analizowany tylko na tym urządzeniu i nigdy nie jest nagrywany ani wysyłany."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "O microfone é usado para mover a boca do personagem com a sincronia labial. O som é analisado só neste dispositivo e nunca é gravado nem enviado."
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "O microfone é usado para mover a boca do personagem com a sincronização labial. O som é analisado só neste dispositivo e nunca é gravado nem enviado."
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Microfonul este folosit pentru a mișca gura personajului prin sincronizarea buzelor. Sunetul este analizat numai pe acest dispozitiv și nu este niciodată înregistrat sau trimis."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Микрофон используется, чтобы двигать рот персонажа с помощью синхронизации губ. Звук анализируется только на этом устройстве и никогда не записывается и не отправляется."
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mikrofón sa používa na pohyb úst postavy pomocou synchronizácie pier. Zvuk sa analyzuje len v tomto zariadení a nikdy sa nenahráva ani neodosiela."
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mikrofon se uporablja za premikanje ust lika s sinhronizacijo ustnic. Zvok se analizira samo v tej napravi in se nikoli ne posname ali pošlje."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mikrofonen används för att röra figurens mun med läppsynk. Ljudet analyseras bara på den här enheten och spelas aldrig in eller skickas."
+          }
+        },
+        "ta" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "லிப் சிங்க் மூலம் கதாபாத்திரத்தின் வாயை அசைக்க மைக்ரோஃபோன் பயன்படுகிறது. ஒலி இந்தச் சாதனத்தில் மட்டுமே பகுப்பாய்வு செய்யப்படும், ஒருபோதும் பதிவுசெய்யப்படாது அல்லது அனுப்பப்படாது."
+          }
+        },
+        "te" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "లిప్ సింక్ ద్వారా పాత్ర నోటిని కదిలించడానికి మైక్రోఫోన్ ఉపయోగించబడుతుంది. ధ్వని ఈ పరికరంలో మాత్రమే విశ్లేషించబడుతుంది, ఎప్పుడూ రికార్డ్ చేయబడదు లేదా పంపబడదు."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ไมโครโฟนใช้เพื่อขยับปากของตัวละครด้วยลิปซิงค์ เสียงจะได้รับการวิเคราะห์บนอุปกรณ์นี้เท่านั้น และจะไม่ถูกบันทึกหรือส่งออกไป"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mikrofon, karakterin ağzını dudak senkronuyla hareket ettirmek için kullanılır. Ses yalnızca bu aygıtta analiz edilir ve asla kaydedilmez veya gönderilmez."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Мікрофон використовується, щоб рухати рот персонажа за допомогою синхронізації губ. Звук аналізується лише на цьому пристрої й ніколи не записується та не надсилається."
+          }
+        },
+        "ur" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "مائیکروفون لب ہم آہنگی سے کردار کے منہ کو حرکت دینے کے لیے استعمال ہوتا ہے۔ آواز کا تجزیہ صرف اسی آلے پر ہوتا ہے اور اسے کبھی ریکارڈ یا بھیجا نہیں جاتا۔"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Micrô được dùng để chuyển động miệng nhân vật bằng đồng bộ môi. Âm thanh chỉ được phân tích trên thiết bị này và không bao giờ được ghi âm hay gửi đi."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "使用麦克风通过口型同步来驱动角色的嘴。声音只在本设备上分析,不会被录制或发送。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "使用麥克風透過對嘴同步來驅動角色的嘴。聲音只在本裝置上分析,不會被錄製或傳送。"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "使用麥克風透過口形同步來驅動角色的嘴。聲音只在本裝置上分析,不會被錄製或傳送。"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

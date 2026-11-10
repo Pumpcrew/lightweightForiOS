@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B10000000000000000000001 /* LivLivCore in Frameworks */ = {isa = PBXBuildFile; productRef = B20000000000000000000001 /* LivLivCore */; };
+		B10000000000000000000002 /* LivLivKit in Frameworks */ = {isa = PBXBuildFile; productRef = B20000000000000000000002 /* LivLivKit */; };
+		B10000000000000000000003 /* LivLivSamples in Frameworks */ = {isa = PBXBuildFile; productRef = B20000000000000000000003 /* LivLivSamples */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B30000000000000000000001 /* livlivIOSPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = livlivIOSPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B30000000000000000000002 /* livlivIOSPlayer-macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "livlivIOSPlayer-macOS.entitlements"; sourceTree = "<group>"; };
+		B30000000000000000000003 /* LivLivKit */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = LivLivKit; sourceTree = "<group>"; };
+		B30000000000000000000004 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		B40000000000000000000001 /* livlivIOSPlayer */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = livlivIOSPlayer;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B50000000000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B10000000000000000000001 /* LivLivCore in Frameworks */,
+				B10000000000000000000002 /* LivLivKit in Frameworks */,
+				B10000000000000000000003 /* LivLivSamples in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B60000000000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				B40000000000000000000001 /* livlivIOSPlayer */,
+				B60000000000000000000004 /* Packages */,
+				B60000000000000000000003 /* Config */,
+				B60000000000000000000002 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B60000000000000000000002 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B30000000000000000000001 /* livlivIOSPlayer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B60000000000000000000003 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				B30000000000000000000002 /* livlivIOSPlayer-macOS.entitlements */,
+				B30000000000000000000004 /* Info.plist */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		B60000000000000000000004 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				B30000000000000000000003 /* LivLivKit */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B80000000000000000000001 /* livlivIOSPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B90000000000000000000002 /* Build configuration list for PBXNativeTarget "livlivIOSPlayer" */;
+			buildPhases = (
+				B50000000000000000000002 /* Sources */,
+				B50000000000000000000001 /* Frameworks */,
+				B50000000000000000000003 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				B40000000000000000000001 /* livlivIOSPlayer */,
+			);
+			name = livlivIOSPlayer;
+			packageProductDependencies = (
+				B20000000000000000000001 /* LivLivCore */,
+				B20000000000000000000002 /* LivLivKit */,
+				B20000000000000000000003 /* LivLivSamples */,
+			);
+			productName = livlivIOSPlayer;
+			productReference = B30000000000000000000001 /* livlivIOSPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA0000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					B80000000000000000000001 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = B90000000000000000000001 /* Build configuration list for PBXProject "livlivIOSPlayer" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ar,
+				bg,
+				bn,
+				ca,
+				cs,
+				da,
+				de,
+				el,
+				es,
+				"es-419",
+				fi,
+				fr,
+				"fr-CA",
+				gu,
+				he,
+				hi,
+				hr,
+				hu,
+				id,
+				it,
+				ja,
+				kk,
+				kn,
+				ko,
+				lt,
+				ml,
+				mr,
+				ms,
+				nb,
+				nl,
+				or,
+				pa,
+				pl,
+				"pt-BR",
+				"pt-PT",
+				ro,
+				ru,
+				sk,
+				sl,
+				sv,
+				ta,
+				te,
+				th,
+				tr,
+				uk,
+				ur,
+				vi,
+				"zh-HK",
+				"zh-Hans",
+				"zh-Hant",
+			);
+			mainGroup = B60000000000000000000001;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				BB0000000000000000000001 /* XCLocalSwiftPackageReference "Packages/LivLivKit" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = B60000000000000000000002 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B80000000000000000000001 /* livlivIOSPlayer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B50000000000000000000003 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B50000000000000000000002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BC0000000000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BC0000000000000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		BC0000000000000000000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"ASSETCATALOG_COMPILER_APPICON_NAME[sdk=xros*]" = "";
+				"ASSETCATALOG_COMPILER_APPICON_NAME[sdk=xrsimulator*]" = "";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				"CODE_SIGN_ENTITLEMENTS[sdk=macosx*]" = "Config/livlivIOSPlayer-macOS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Config/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = livlivIOSPlayer;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "The camera is used to move the character with face tracking. The picture is processed on this device only and is never stored or sent.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "The microphone is used to move the character's mouth with lip sync. The sound is analyzed on this device only and is never recorded or sent.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		BC0000000000000000000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"ASSETCATALOG_COMPILER_APPICON_NAME[sdk=xros*]" = "";
+				"ASSETCATALOG_COMPILER_APPICON_NAME[sdk=xrsimulator*]" = "";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				"CODE_SIGN_ENTITLEMENTS[sdk=macosx*]" = "Config/livlivIOSPlayer-macOS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Config/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = livlivIOSPlayer;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "The camera is used to move the character with face tracking. The picture is processed on this device only and is never stored or sent.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "The microphone is used to move the character's mouth with lip sync. The sound is analyzed on this device only and is never recorded or sent.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B90000000000000000000001 /* Build configuration list for PBXProject "livlivIOSPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC0000000000000000000001 /* Debug */,
+				BC0000000000000000000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B90000000000000000000002 /* Build configuration list for PBXNativeTarget "livlivIOSPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC0000000000000000000003 /* Debug */,
+				BC0000000000000000000004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		BB0000000000000000000001 /* XCLocalSwiftPackageReference "Packages/LivLivKit" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/LivLivKit;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B20000000000000000000001 /* LivLivCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BB0000000000000000000001 /* XCLocalSwiftPackageReference "Packages/LivLivKit" */;
+			productName = LivLivCore;
+		};
+		B20000000000000000000002 /* LivLivKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BB0000000000000000000001 /* XCLocalSwiftPackageReference "Packages/LivLivKit" */;
+			productName = LivLivKit;
+		};
+		B20000000000000000000003 /* LivLivSamples */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BB0000000000000000000001 /* XCLocalSwiftPackageReference "Packages/LivLivKit" */;
+			productName = LivLivSamples;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = BA0000000000000000000001 /* Project object */;
+}
