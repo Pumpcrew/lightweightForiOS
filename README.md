@@ -2,7 +2,6 @@
 
 [LivLiv Player](https://github.com/livliv-dev/player)(웹용 2.5D 캐릭터 플레이어, TypeScript/WebGL2)를 **iOS · macOS · visionOS 네이티브 앱**으로 옮긴 프로젝트입니다. 렌더러는 **Metal**, VRM은 **RealityKit** 위에 직접 구현한 glTF/VRM 로더로 그립니다.
 
-- Bundle ID `com.lsw.livlivIOSPlayer`, Team `Y6L526TMB6`
 - 최소 버전: iOS 18, macOS 15, visionOS 2 (Xcode 16 이상, Swift 6 툴체인)
 - 외부 의존성 없음. 앱 로직은 로컬 Swift Package(`Packages/LivLivKit`)에 있습니다.
 
