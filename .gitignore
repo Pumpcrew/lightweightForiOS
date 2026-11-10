@@ -1,7 +1,11 @@
-node_modules/
-dist/
+# macOS
 .DS_Store
-# your own unzipped model package, to try the examples with
-example/model/
-# made by the build (scripts/pack-characters.mjs)
-characters/*.livliv
+# metadata macOS writes beside files on exFAT / FAT drives
+._*
+
+# Xcode and SwiftPM, per user
+xcuserdata/
+*.xcuserstate
+.swiftpm/
+.build/
+DerivedData/

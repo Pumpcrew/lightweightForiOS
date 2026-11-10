@@ -1,83 +1,95 @@
 # livlivIOSPlayer
 
-[LivLiv Player](https://github.com/livliv-dev/player)(웹용 2.5D 캐릭터 플레이어, TypeScript/WebGL2)를 **iOS · macOS · visionOS 네이티브 앱**으로 옮긴 프로젝트입니다. 렌더러는 **Metal**, VRM은 **RealityKit** 위에 직접 구현한 glTF/VRM 로더로 그립니다.
+**English** · [한국어](docs/readme/README.ko.md) · [日本語](docs/readme/README.ja.md) · [简体中文](docs/readme/README.zh-Hans.md) · [繁體中文](docs/readme/README.zh-Hant.md) · [繁體中文（香港）](docs/readme/README.zh-HK.md) · [Español](docs/readme/README.es.md) · [Español (Latinoamérica)](docs/readme/README.es-419.md) · [Français](docs/readme/README.fr.md) · [Français (Canada)](docs/readme/README.fr-CA.md) · [Deutsch](docs/readme/README.de.md) · [Italiano](docs/readme/README.it.md) · [Português (Brasil)](docs/readme/README.pt-BR.md) · [Português (Portugal)](docs/readme/README.pt-PT.md) · [Nederlands](docs/readme/README.nl.md) · [Svenska](docs/readme/README.sv.md) · [Dansk](docs/readme/README.da.md) · [Norsk bokmål](docs/readme/README.nb.md) · [Suomi](docs/readme/README.fi.md) · [Polski](docs/readme/README.pl.md) · [Čeština](docs/readme/README.cs.md) · [Slovenčina](docs/readme/README.sk.md) · [Slovenščina](docs/readme/README.sl.md) · [Hrvatski](docs/readme/README.hr.md) · [Русский](docs/readme/README.ru.md) · [Українська](docs/readme/README.uk.md) · [Български](docs/readme/README.bg.md) · [Қазақ тілі](docs/readme/README.kk.md) · [Ελληνικά](docs/readme/README.el.md) · [Română](docs/readme/README.ro.md) · [Magyar](docs/readme/README.hu.md) · [Lietuvių](docs/readme/README.lt.md) · [Türkçe](docs/readme/README.tr.md) · [Català](docs/readme/README.ca.md) · [العربية](docs/readme/README.ar.md) · [עברית](docs/readme/README.he.md) · [اردو](docs/readme/README.ur.md) · [हिन्दी](docs/readme/README.hi.md) · [বাংলা](docs/readme/README.bn.md) · [ગુજરાતી](docs/readme/README.gu.md) · [ಕನ್ನಡ](docs/readme/README.kn.md) · [മലയാളം](docs/readme/README.ml.md) · [मराठी](docs/readme/README.mr.md) · [ଓଡ଼ିଆ](docs/readme/README.or.md) · [ਪੰਜਾਬੀ](docs/readme/README.pa.md) · [தமிழ்](docs/readme/README.ta.md) · [తెలుగు](docs/readme/README.te.md) · [ไทย](docs/readme/README.th.md) · [Tiếng Việt](docs/readme/README.vi.md) · [Bahasa Indonesia](docs/readme/README.id.md) · [Bahasa Melayu](docs/readme/README.ms.md)
 
-- 최소 버전: iOS 18, macOS 15, visionOS 2 (Xcode 16 이상, Swift 6 툴체인)
-- 외부 의존성 없음. 앱 로직은 로컬 Swift Package(`Packages/LivLivKit`)에 있습니다.
+A port of [LivLiv Player](https://github.com/livliv-dev/player), a 2.5D character player for the web (TypeScript/WebGL2), to a **native app for iOS, macOS and visionOS**. Characters are drawn with **Metal**, and VRM avatars with a glTF/VRM loader written for this project on **RealityKit**.
 
-## 빌드
+## Requirements
 
-1. `livlivIOSPlayer.xcodeproj`를 Xcode로 엽니다.
-2. 실행 대상(destination)으로 iPhone/iPad(기기 또는 시뮬레이터), My Mac, Apple Vision Pro 중 하나를 고릅니다.
-3. Run(⌘R)을 누릅니다. 서명은 Automatic(Team Y6L526TMB6)으로 설정되어 있습니다.
+- iOS 18, macOS 15 or visionOS 2 or later (Xcode 16 or later, Swift 6 toolchain)
+- No outside dependencies. The app's logic is in a local Swift package (`Packages/LivLivKit`).
 
-`LivLivCore`는 Debug에서도 `-O`로 빌드됩니다. 리그가 한 프레임에 수만 개의 정점을 움직이기 때문입니다(k01 기준 −Onone 약 17 ms, −O 약 2 ms).
+## Build
 
-## 구조
+1. Open `livlivIOSPlayer.xcodeproj` in Xcode.
+2. In Signing & Capabilities, choose your own Team, and change the bundle identifier if you need to.
+3. Choose an iPhone or iPad (device or simulator), My Mac or Apple Vision Pro as the run destination, then press Run (⌘R).
+
+`LivLivCore` is built with `-O` even in Debug, because the rig moves tens of thousands of vertices each frame (k01: about 17 ms a frame at `-Onone`, about 2 ms at `-O`).
+
+## Features
+
+- **Characters**: 21 bundled characters
+- **Import**: pick a folder or file you put in the app's Documents folder. The app first checks that it can open it, then loads it. If it can't, an alert shows the reason in a text view you can select and copy.
+- Documents folder: on iPhone, iPad and Vision Pro, Files › On My iPhone › livlivIOSPlayer; on Mac, “Open the Documents Folder in Finder” in Import. “Choose from Another Location…” opens a folder or file somewhere else.
+- Expressions, actions and dozing. The character follows the pointer, swinging parts bounce when tapped, and you can pinch to zoom.
+- **Lip sync** from the microphone or an audio file, and **face tracking** on an iPhone or iPad with TrueDepth
+- **Settings**: motion, resolution, face tracking, and Open Source Licenses › “Licenses and Trademarks”
+
+## Supported formats
+
+- LivLiv model folder (`model.json` + `textures/`), `.livliv` / `.zip`
+- `.vrm` / `.glb` (VRM 0.x / 1.0), including files exported by the VRM Add-on for Blender
+- PNGTuber folder: `closed.png`, `open.png` (optional: `blink.png`, `blink-open.png`, `name.txt`)
+
+A file that can't be played (a VRM with no mesh, Draco / Meshopt / KTX2 compression, images that are too large) is refused with the reason.
+
+## Localization
+
+- The app's text is in 50 languages, in String Catalogs (`livlivIOSPlayer/Localizable.xcstrings`, `InfoPlist.xcstrings`). The development language is English, and regional variants of English use it.
+- The “Licenses and Trademarks” document is in Korean on Korean devices and in English elsewhere. Character names, credits and original license texts are not translated.
+- This README is in the same languages (links at the top). The translations have not yet been reviewed by native speakers, so corrections are welcome.
+
+## Project layout
 
 ```
-livlivIOSPlayer.xcodeproj      멀티플랫폼 앱 타깃 하나 (iphoneos, macosx, xros)
-livlivIOSPlayer/               앱 (폴더 동기화 그룹)
-  App/                         진입점, AppModel(로드 · 가져오기 · 립싱크 · 얼굴 추적 · 실패 처리)
-  Views/                       화면, 설정, 오픈 소스 라이선스, 가져오기, TextView 실패 Alert
-  Resources/Legal/             「라이선스와 상표」 문서, Apache-2.0 전문, NOTICE
-  Assets.xcassets
-Config/                        Info.plist(Documents 공유), macOS 샌드박스 entitlements
-Packages/LivLivKit/            Swift Package
-  Sources/LivLivCore/          순수 Swift(Foundation만 사용): 모델 형식 v3/v4, ZIP, 자동 리그 · 물리 · 키폼,
-                               아이들 · 토크 · 액션, 립싱크 분석(엔벌로프 · 모음), 얼굴 → 파라미터 매핑,
-                               glTF/VRM 0.x · 1.0 리더, VRM 포즈 · 스프링본 · 모프 · CPU 스키닝
-  Sources/LivLivKit/           Apple 플랫폼: Metal 렌더러, RealityKit VRM 뷰, 이미지 디코딩, 워터마크,
-                               마이크(AVAudioEngine), 음성 파일, ARKit 얼굴 추적, SwiftUI 뷰
-  Sources/LivLivSamples/       동봉 캐릭터 21종 (별도 라이선스: Characters/LICENSE.md, CREDITS.md)
-  Tests/LivLivCoreTests/       코어 테스트 (Linux · macOS에서 `swift test`)
+livlivIOSPlayer.xcodeproj      one multiplatform app target (iphoneos, macosx, xros)
+livlivIOSPlayer/               the app
+  App/                         entry point, AppModel
+  Views/                       screens, settings, licenses, import, failure alert
+  Resources/Legal/             Licenses and Trademarks (ko, en), Apache-2.0, NOTICE
+  Localizable.xcstrings        UI text, 50 languages
+  InfoPlist.xcstrings          camera and microphone usage text
+Config/                        Info.plist, macOS sandbox entitlements
+Packages/LivLivKit/            Swift package
+  Sources/LivLivCore/          pure Swift: formats, rig, motion, lip sync, glTF/VRM
+  Sources/LivLivKit/           Metal, RealityKit, audio, ARKit, SwiftUI views
+  Sources/LivLivSamples/       21 bundled characters (own license)
+  Tests/LivLivCoreTests/       core tests (swift test)
+docs/readme/                   translations of this README
 ```
 
-### 원본 → 포팅 대응
+## Original → port
 
-| 원본 (TypeScript) | 포팅 (Swift) |
+| Original (TypeScript) | Port (Swift) |
 |---|---|
-| `runtime/puppet.ts` (리그, 물리, 체인, 키폼, 그리기 순서) | `LivLivCore/Puppet.swift` (그리기 명령 목록 생성) + `LivLivKit/MetalRenderer.swift` (실행) |
-| WebGL2 셰이더 · 스텐실 · 마스크 FBO | Metal 셰이더(런타임 컴파일), `MTLDepthStencilState`, 채널별 마스크 렌더 패스 |
-| `runtime/format.ts`, `zip.ts` | `ModelFormat.swift`, `Keyforms.swift`, `Zip.swift`(deflate는 Compression 프레임워크) |
+| `runtime/puppet.ts` | `LivLivCore/Puppet.swift`, `LivLivKit/MetalRenderer.swift` |
+| `runtime/format.ts`, `zip.ts` | `ModelFormat.swift`, `Keyforms.swift`, `Zip.swift` |
 | `runtime/idle.ts`, `follow.ts`, `talk.ts`, `actions.ts`, `base.ts` | `LivelyIdle.swift`, `Motion.swift`, `Composer.swift` |
-| `runtime/voice.ts`, `vowel.ts`, `speech.ts` | `Voice.swift` + `LivLivKit/LipSync.swift`(AVAudioEngine, AVAudioPlayer) |
-| `runtime/tracking.ts` (MediaPipe) | `Composer.swift` FaceMapper + `LivLivKit/FaceTracking.swift`(ARKit, iOS TrueDepth) |
-| `png.ts` | `CharacterStage.pngQuad` |
-| `vrm.ts` (three.js + three-vrm) | `VRM/GLTF.swift`, `VRMModel.swift`, `VRMRig.swift` + `LivLivKit/VRMStageView.swift`(RealityKit LowLevelMesh) |
-| `mark.ts`, `runtime/brand.ts` | `LivLivKit/Watermark.swift` (CoreGraphics) |
+| `runtime/voice.ts`, `vowel.ts`, `speech.ts` | `Voice.swift`, `LivLivKit/LipSync.swift` |
+| `runtime/tracking.ts` (MediaPipe) | `Composer.swift` (FaceMapper), `LivLivKit/FaceTracking.swift` (ARKit) |
+| `png.ts` | `LivLivKit/CharacterStage.swift` |
+| `vrm.ts` (three.js, three-vrm) | `VRM/GLTF.swift`, `VRMModel.swift`, `VRMRig.swift`, `LivLivKit/VRMStageView.swift` |
+| `mark.ts`, `runtime/brand.ts` | `LivLivKit/Watermark.swift` |
 
-## 앱 기능
-
-- **캐릭터 메뉴**: 동봉 캐릭터 21종
-- **가져오기**: 앱의 Documents 폴더에 사용자가 넣은 폴더나 파일을 목록에서 고르면, 먼저 열 수 있는지 검사(`CharacterInspector`)한 뒤 로드합니다. 열 수 없으면 사유를 **UITextView/NSTextView로 된 Alert**에 보여 줍니다(선택 · 복사 가능).
-  - iPhone/iPad/Vision Pro: 파일 앱 › 나의 iPhone › livlivIOSPlayer (`UIFileSharingEnabled`, `LSSupportsOpeningDocumentsInPlace`)
-  - Mac: 가져오기 메뉴의 「Finder에서 Documents 폴더 열기」(샌드박스 컨테이너의 Documents)
-  - 「다른 위치에서 선택…」으로 다른 곳에 있는 폴더나 파일도 열 수 있습니다(보안 범위 접근).
-  - 지원 형식: LivLiv 모델 폴더(`model.json` + `textures/`), `.livliv`/`.zip`, `.vrm`/`.glb`(VRM 0.x/1.0), PNGTuber 폴더(`closed.png`, `open.png`, 선택: `blink.png`, `blink-open.png`, `name.txt`)
-- **표정 · 액션 · 졸기**, 포인터(드래그/호버)를 따라보기, 탭하면 흔들리는 부분(체인)을 튕기기, 핀치 줌
-- **립싱크**: 마이크, 음성 파일 / **얼굴 추적**: TrueDepth가 있는 iPhone·iPad
-- **설정**: 움직임 · 해상도 · 얼굴 추적, **오픈 소스 라이선스** › 「라이선스와 상표」 문서와 원문
-
-## 테스트
+## Tests
 
 ```sh
 cd Packages/LivLivKit
 swift test
 ```
 
-Linux에서 실행해 확인한 것: 동봉 캐릭터 21종의 `model.json` 읽기, 각 캐릭터를 240프레임 재생(표정 · 액션 · 입 모양 · 홍채 스텐실 포함), 키폼(d03ft), 체인 튕기기, ZIP, 립싱크 분석, VRM 0.x/1.0 읽기와 거부 사례(메시 없음, Draco, 너무 큰 그림), 스키닝 · 모프 · 스프링본.
+Checked on Linux: reading the 21 bundled characters, 240 frames of each (expressions, actions, mouth, iris stencil), keyforms, chain bounce, ZIP, lip-sync analysis, reading and refusing VRM 0.x / 1.0, skinning, morphs and spring bones, and what the VRM Add-on for Blender writes (compression named but not used, `KHR_texture_transform`, samplers).
 
-## 알려진 차이와 한계
+## Known differences and limits
 
-- **MToon**: RealityKit의 Unlit 머티리얼로 근사합니다(기본색 · 텍스처 · 알파 모드 · 양면). 림라이트와 셰이드 경계는 없습니다.
-- **VRM 렌더링**: 스키닝 · 모프는 CPU에서 계산해 매 프레임 LowLevelMesh에 씁니다. 정점이 매우 많은 모델은 Release 빌드를 권장합니다.
-- **얼굴 추적**: ARKit(TrueDepth) 전용이라 Mac과 Vision Pro에서는 지원하지 않습니다. MediaPipe와 달리 입술 랜드마크가 없어서 입 벌림은 `jawOpen`만으로 정합니다.
-- **visionOS**: VRM은 창 안에 약 0.36 m 높이로 놓입니다.
-- 이 저장소는 Linux에서 코어 테스트와 Swift 구문 검사만 거쳤습니다. Apple SDK로 처음 빌드할 때 경고나 사소한 API 차이가 나올 수 있습니다.
+- **MToon** is approximated with RealityKit's unlit material (base colour, texture, alpha mode, double-sidedness). There is no rim light or shade boundary.
+- **VRM** skinning and morphs run on the CPU and are written to a LowLevelMesh each frame. Use a Release build for models with very many vertices.
+- **Face tracking** uses ARKit (TrueDepth), so it is not available on Mac or Vision Pro. With no lip landmarks, mouth opening comes from `jawOpen` alone.
+- **visionOS**: a VRM stands about 0.36 m tall in the window.
 
-## 라이선스
+## License
 
-- 코드: LivLiv Player의 Apache License 2.0을 따릅니다(`livlivIOSPlayer/Resources/Legal/`).
-- 동봉 캐릭터: Apache 라이선스가 **적용되지 않습니다**. 비상업 용도에 한하며 출처 표기가 필요합니다. Kujira·Kujira Q는 CC BY-NC-SA 4.0이고, Pen에는 어떤 권리도 부여되지 않습니다. 앱을 배포하기 전에 앱 안의 「라이선스와 상표」 문서를 확인하세요.
-- "LivLiv" 이름과 로고는 어느 라이선스에도 포함되지 않습니다.
+- Code: Apache License 2.0, the same as LivLiv Player (`livlivIOSPlayer/Resources/Legal/`).
+- Bundled characters: the Apache license does **not** apply. Non-commercial use only, with credit. Kujira and Kujira Q are CC BY-NC-SA 4.0, and Pen is given no rights at all. Read “Licenses and Trademarks” in the app before you distribute it.
+- The LivLiv name and logo are not covered by any license.
